@@ -1,0 +1,21 @@
+{
+  "name": "ericperezdev",
+  "description": "Portfolio web site for Eric Perez frontend developer",
+  "main": "gulpfile.js",
+  "authors": [
+    "Eric Perez"
+  ],
+  "license": "ISC",
+  "homepage": "http://wwww.ericperezdev.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "^5.5.3"
+  }
+}
