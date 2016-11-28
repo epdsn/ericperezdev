@@ -1,38 +1,28 @@
 doctype html
 html.no-js
     head
-        title Eric Perez Designer And Developer
+        title Eric Perez Frontend Developer
         include includes/head.jade
     body
 
         include includes/mixins.jade
 
+        include includes/header.jade
         .row#main-container
-            .medium-3.columns#left-bar
-            
-                include includes/header.jade
-
-
-            .medium-9.columns#content
+            .medium-12.columns#content
                 h1 Ill hekp you reach your peak
-
                 .row 
                     .medium-6.columns
-                         
                         +skillinfo(
                             'Frontend',
                             'I started out as a frontend guys about 15 years ago, fully equipped with FrontPage 98 and ready to rock the early internets.',
                             'images/frontend-icons.png')
                         +skills('HTML5', 'CSS3', 'JADE', 'SASS', 'LESS', 'JAVASCRIPT', 'XML')
-
                     .medium-6.columns
                         +skillinfo(
                             'Backend',
                             'Out of necessity, I learned bbackend development while launching several internet-based buisnesses starting in 2002.',
                             'images/backend-icons.png')
                         +skills('PHP', '.NET', 'NODEJS', 'C#', 'SQL', 'JAVASCRIPT', 'XML')
-
-
-
 
         include includes/footer.jade

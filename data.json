@@ -1,8 +1,7 @@
 {
     "menuItems" : [
-        {"itemId": "about", "itemLink": "#", "itemAnchor": "About Eric"},
-        {"itemId": "experience", "itemLink": "#", "itemAnchor": "Experience"},
-        {"itemId": "portfolios", "itemLink": "#", "itemAnchor": "Portfolios"},
-        {"itemId": "hire", "itemLink": "#", "itemAnchor": "Hire Me"}
+        {"itemId": "about", "itemLink": "#", "itemAnchor": "About Me"},
+        {"itemId": "experience", "itemLink": "#", "itemAnchor": "Work"},
+        {"itemId": "hire", "itemLink": "#", "itemAnchor": "Contact"}
     ]
 }

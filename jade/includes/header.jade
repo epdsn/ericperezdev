@@ -1,14 +1,37 @@
 include ./mixins.jade
 
-a#name(href='#') Eric Perez
-p.sub-title Web, UI/UX Developer
 
-+mainNav
+nav.top-bar(role="navigation")
+    ul.title-area
+        li.name
+            h1
+                img.ep-logo(src='images/Ep_Logo.png')
+                a#name(href='#') Eric Perez / Frontend Developer
+
+    section.top-bar-section
+        ul.right
+            li
+                a(href='#')
+                    i.fa.fa-github
+            li
+                a(href='#')
+                    i.fa.fa-codepen
+            li
+                a(href='#')
+                    i.fa.fa-google-plus
+            li
+                a(href='#')
+                    i.fa.fa-rss
+                
+        +mainNav
+
+    
+
 
 ul#social-menu
     li
         a#dribbble(href='#')
-            img(src='images/social-dribble.png')
+            img(src='images/social-dribble.png') 
     li
         a#behance(href='#')
             img(src='images/social-behance.png')

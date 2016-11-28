@@ -29,15 +29,18 @@ a, p, ul li, h1, h2 {
     padding-left: 0;
 }
 
+.ep-logo {
+    display: inline-block;
+    margin-left: 10px;
+}
+
 #name, .sub-title {
   text-align: center;
-  display: block;  
+  display: inline-block;  
 }
 
 #name {
-    font-size: 1.3em;
     color: $name-color;
-    font-weight: bold;
 }
 .sub-color {
     color: $sidebar-font-color;
@@ -51,7 +54,7 @@ ul {
 }
 
 ul#main-menu {
-    margin: 50px 0;
+    
 }
 ul#main-menu li a {
     background: $dark-color;
@@ -59,20 +62,6 @@ ul#main-menu li a {
     width: 100%;
     margin-left: 10px;
     color: $sidebar-font-color;
-    padding: 10px 20px;
-}
-
-ul#main-menu li#about {
-    background: #5fcbb0;
-}
-ul#main-menu li#experience {
-    background: #cb5f83;
-}
-ul#main-menu li#porfolios {
-    background: #5f8dcb;
-}
-ul#main-menu li#hire {
-    background: #cb5f5f;
 }
 
 

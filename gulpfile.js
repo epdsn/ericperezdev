@@ -66,6 +66,12 @@ gulp.task('js', function(){
         .pipe(livereload())
 });
 
+
+gulp.task('icons', function(){
+    return gulp.src('bower_components/font-awesome/fonts/**.*')
+        .pipe(gulp.dest('build/fonts'));
+});
+
 gulp.task('watch', ['build'], function(){
     
     livereload.listen();
@@ -79,4 +85,4 @@ gulp.task('watch', ['build'], function(){
 });
 
 // Runs all tasks on build
-gulp.task('build', ['html', 'css', 'images', 'js']);
+gulp.task('build', ['html', 'css', 'images', 'js', 'icons']);
