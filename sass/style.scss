@@ -1,16 +1,13 @@
 $name-color: #fff;
 $sidebar-font-color: #ababab;
 $sidebar-hover-color: #483543;
-$dark-color: #2f2f2f;
+$dark-text: #386a8f;
+$logo-color: #56C4B7;
+
 
 
 body, html {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e6cb2+0,09bafc+100 */
-    background: #1e6cb2; /* Old browsers */
-    background: -moz-linear-gradient(top,  #1e6cb2 0%, #09bafc 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #1e6cb2 0%,#09bafc 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #1e6cb2 0%,#09bafc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e6cb2', endColorstr='#09bafc',GradientType=0 ); /* IE6-9 */
+    background: #ccd8dc;
     height: 100%;
 }
 
@@ -19,11 +16,46 @@ a, p, ul li, h1, h2 {
     font-family: 'Source Sans Pro';
 }
 
-#main-container {
-    background: $dark-color;
-    margin-top: 30px;
-    border-radius: 7px;
+span.intro {
+    color: #000;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.8em;
+    margin-top: 60px;
 }
+
+h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    color: #000;
+    border-bottom: solid 1px #000;
+    text-transform: uppercase;
+}
+
+
+
+#main-container {
+    background: transparent;
+}
+
+nav.top-bar {
+    background: transparent;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+nav.top-bar .top-bar-section ul li {
+    background: transparent;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: transparent;
+}
+
+nav.top-bar ul#main-menu li a {
+    background: transparent;
+}
+
 
 #left-bar {
     padding-left: 0;
@@ -32,6 +64,7 @@ a, p, ul li, h1, h2 {
 .ep-logo {
     display: inline-block;
     margin-left: 10px;
+    height: 1.8rem;
 }
 
 #name, .sub-title {
@@ -57,7 +90,7 @@ ul#main-menu {
     
 }
 ul#main-menu li a {
-    background: $dark-color;
+    // background: $dark-color;
     display: block;
     width: 100%;
     margin-left: 10px;
@@ -69,31 +102,16 @@ ul#main-menu li a:hover {
     background: $sidebar-hover-color;
 }
 
-ul#social-menu {
-    display: inline;
-    float: left;
-    width: 33%;
-    text-align: center;
-
-}
-
 #content {
-    background: #fff url(../images/bg.jpg) no-repeat;
+    background: transparent;
     min-height: 600px;
-    border-radius: 0 7px 7px 0; 
 }
 
-h1 {
-    color: #000;
-    text-align: center;
-    font-weight: 300;
-    font-size: 2.8em;
-    margin-top: 60px;
-}
 
-h2 {
-    text-transform: uppercase;
-    margin-top: 140px;
+
+section.specialization {
+    background-color: $logo-color;
+    padding: 3rem;
 }
 
 .skill-icons {
@@ -129,10 +147,6 @@ ul.skills li {
 
     #content {
         text-align: center;
-    }
-
-    h2 {
-        margin-top: 40px;
     }
 
 }

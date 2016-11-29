@@ -8,21 +8,69 @@ html.no-js
         include includes/mixins.jade
 
         include includes/header.jade
-        .row#main-container
-            .medium-12.columns#content
-                h1 Ill hekp you reach your peak
-                .row 
-                    .medium-6.columns
-                        +skillinfo(
-                            'Frontend',
-                            'I started out as a frontend guys about 15 years ago, fully equipped with FrontPage 98 and ready to rock the early internets.',
-                            'images/frontend-icons.png')
-                        +skills('HTML5', 'CSS3', 'JADE', 'SASS', 'LESS', 'JAVASCRIPT', 'XML')
-                    .medium-6.columns
-                        +skillinfo(
-                            'Backend',
-                            'Out of necessity, I learned bbackend development while launching several internet-based buisnesses starting in 2002.',
-                            'images/backend-icons.png')
-                        +skills('PHP', '.NET', 'NODEJS', 'C#', 'SQL', 'JAVASCRIPT', 'XML')
+
+
+        section.intro
+            .row
+                .columns.medium-12
+                    h1.intro-text Hello. My name is Eric Perez. <br /> I have been developing and desiging sites since 2005. I started my career in print and started to apply those skills to web development.
+        
+        section.specialization
+            .row
+                .columns.medium-12
+                    h2 I Specialize In
+                    .row
+                        .columns.small-4
+                            h3 Interaction
+                        .columns.small-4
+                            h3 Responsive Design
+                        .columns.small-4
+                            h3 Web Development
+
+        section.work
+            h2.text-right Work
+
+            .row
+
+                .small-4.large-expand.columns
+                    a(href="images/portfolio/mtxmarine.PNG", data-lightbox="portfolio")
+                        img(src="images/portfolio/mtxmarine_thumb.jpg")
+
+                .small-4.large-expand.columns
+                    a(href="images/portfolio/GRMTOP.JPG", data-lightbox="portfolio")
+                        img(src="images/portfolio/GRMTOP_thumb.jpg")
+
+                .small-4.large-expand.columns
+                    a(href="ibestudios-1.PNG", data-lightbox="portfolio")
+                        img(src="images/portfolio/ibestudios_thumb.jpg")
+
+                .small-4.large-expand.columns
+                    a(href="ibestudios-1.PNG", data-lightbox="portfolio")
+                        img(src="JasonRay_PersonalFitness_thumb.jpg")
+
+            <a href="images/portfolio/reqsound.PNG" data-lightbox="roadtrip">Image #3</a>
+            <a href="images/portfolio/VisualVaultWebsite.PNG" data-lightbox="roadtrip">Image #4</a>
+
+        section.about
+            h2 About
+
+        section.skills
+            h2.text-right Skills
+            .row 
+                .medium-6.columns
+                    +skillinfo(
+                        'Frontend',
+                        'I started out as a frontend guys about 15 years ago, fully equipped with FrontPage 98 and ready to rock the early internets.',
+                        '  ')
+                    +skills('HTML5', 'CSS3', 'JADE', 'SASS', 'LESS', 'JAVASCRIPT', 'XML')
+                .medium-6.columns
+                    +skillinfo(
+                        'Backend',
+                        'Out of necessity, I learned bbackend development while launching several internet-based buisnesses starting in 2002.',
+                        ' ')
+                    +skills('PHP', '.NET', 'NODEJS', 'C#', 'SQL', 'JAVASCRIPT', 'XML')
+
+        section.contact
+            h2.text-right Contact
 
         include includes/footer.jade

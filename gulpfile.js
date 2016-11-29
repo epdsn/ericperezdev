@@ -55,13 +55,13 @@ gulp.task('css', function() {
 });
 
 gulp.task('images', function(){
-    gulp.src('images/*')
+    gulp.src('images/**/*')
         .pipe(gulp.dest('build/images'))
         .pipe(livereload())
 });
 
 gulp.task('js', function(){
-    gulp.src('js/**')
+    gulp.src('js/**/*')
         .pipe(gulp.dest('build/js'))
         .pipe(livereload())
 });
