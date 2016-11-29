@@ -3,5 +3,17 @@
         {"itemId": "about", "itemLink": "#", "itemAnchor": "About Me"},
         {"itemId": "experience", "itemLink": "#", "itemAnchor": "Work"},
         {"itemId": "hire", "itemLink": "#", "itemAnchor": "Contact"}
+    ],
+    "portfolio" : [
+        {"thumb" : "images/portfolio/GRMTOP.JPG", "image" : "images/portfolio/GRMTOP_thumb.jpg", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/GRMTOP.JPG", "image" : "images/portfolio/GRMTOP_thumb.jpg", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/GRMTOP.JPG", "image" : "images/portfolio/GRMTOP_thumb.jpg", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/GRMTOP.JPG", "image" : "images/portfolio/GRMTOP_thumb.jpg", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/GRMTOP.JPG", "image" : "images/portfolio/GRMTOP_thumb.jpg", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/GRMTOP.JPG", "image" : "images/portfolio/GRMTOP_thumb.jpg", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/GRMTOP.JPG", "image" : "images/portfolio/GRMTOP_thumb.jpg", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/GRMTOP.JPG", "image" : "images/portfolio/GRMTOP_thumb.jpg", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/GRMTOP.JPG", "image" : "images/portfolio/GRMTOP_thumb.jpg", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/GRMTOP.JPG", "image" : "images/portfolio/GRMTOP_thumb.jpg", "tag" : "portfolio"}
     ]
 }

@@ -5,6 +5,13 @@ mixin mainNav()
             li(id= menuItem.itemId)
                 a(href= menuItem.itemLink)= menuItem.itemAnchor
 
+mixin portfolio()
+    .row
+        for peice in portfolio
+            .small-6.medium-4.large-expand.columns
+                a(href= peice.image, data-lightbox= peice.tag)
+                    img(src= peice.thumb)
+
 
 mixin skillinfo(skillTitle, skillDesc, src)
     h2= skillTitle
