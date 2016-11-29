@@ -32,29 +32,8 @@ html.no-js
         section.work
             h2.text-right Work
 
-            .row
-
-                .small-4.large-expand.columns
-                    a(href="images/portfolio/mtxmarine.PNG", data-lightbox="portfolio")
-                        img(src="images/portfolio/mtxmarine_thumb.jpg")
-
-                .small-4.large-expand.columns
-                    a(href="images/portfolio/GRMTOP.JPG", data-lightbox="portfolio")
-                        img(src="images/portfolio/GRMTOP_thumb.jpg")
-
-                .small-4.large-expand.columns
-                    a(href="ibestudios-1.PNG", data-lightbox="portfolio")
-                        img(src="images/portfolio/ibestudios_thumb.jpg")
-
-                .small-4.large-expand.columns
-                    a(href="images/portfolio/JasonRay_PersonalFitness-1.jpg", data-lightbox="portfolio")
-                        img(src="images/portfolio/JasonRay_PersonalFitness_thumb.jpg")
-
-                .small-4.large-expand.columns
-                    a(href="images/portfolio/JasonRay_PersonalFitness-1.jpg", data-lightbox="portfolio")
-                        img(src="images/portfolio/JasonRay_PersonalFitness_thumb.jpg")
-
             +portfolio
+
 
         section.about
             h2 About
@@ -77,5 +56,25 @@ html.no-js
 
         section.contact
             h2.text-right Contact
+
+            form(name="form", method="post", action="/contactform/contactscript.php")
+                div
+                    span Your Name:
+                    input(type="text", name="name", size="25", maxlength="200" ) 
+
+                div
+                    span Your Email:
+                    input(type="text", name="email", size="25", maxlength="100" ) 
+
+                div    
+                    span Your Comments:
+                    textarea(name="msg", cols="25", rows="4")
+
+                div
+                    input( type="reset", name="Reset", value="Reset" )
+                    input( type="submit", name="Submit", value="Submit" ) 
+
+
+
 
         include includes/footer.jade
