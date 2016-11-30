@@ -2,25 +2,13 @@ include ./mixins.jade
 
 
 nav.top-bar(role="navigation")
-    ul.title-area
-        li.name
-            h1
-                img.ep-logo(src='images/Ep_Logo.png')
-                a#name(href='#') Eric Perez / Frontend Developer
+    .top-bar-title
+        span(data-responsive-toggle="responsive-menu", data-hide-for="medium")
+            button.menu-icon.dark(type="button", data-toggle)    
+        img.ep-logo(src='images/Ep_Logo.png')
+        a#name(href='#') Eric Perez <br /> Frontend Developer
+    div#responsive-menu
+        .top-bar-right
+            +socialLinks("menu")
 
-    section.top-bar-section
-        ul.right
-            li
-                a(href='#')
-                    i.fa.fa-github
-            li
-                a(href='#')
-                    i.fa.fa-codepen
-            li
-                a(href='#')
-                    i.fa.fa-google-plus
-            li
-                a(href='#')
-                    i.fa.fa-rss
-                
         +mainNav

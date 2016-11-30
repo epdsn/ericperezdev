@@ -1,8 +1,8 @@
 {
     "menuItems" : [
-        {"itemId": "about", "itemLink": "#", "itemAnchor": "About Me"},
-        {"itemId": "experience", "itemLink": "#", "itemAnchor": "Work"},
-        {"itemId": "hire", "itemLink": "#", "itemAnchor": "Contact"}
+        {"itemId": "about", "itemLink": "#", "itemAnchor": "About", "cssClass" :"btnClickToAbout"},
+        {"itemId": "experience", "itemLink": "#", "itemAnchor": "Work", "cssClass" :"btnClickToWork"},
+        {"itemId": "hire", "itemLink": "#", "itemAnchor": "Contact", "cssClass" :"btnClickToContact"}
     ],
     "portfolio" : [
         {"thumb" : "images/portfolio/GRMTOP_thumb.jpg", "image" : "images/portfolio/GRMTOP.JPG", "tag" : "portfolio"},
@@ -15,5 +15,11 @@
         {"thumb" : "images/portfolio/reqsound_thumb.jpg", "image" : "images/portfolio/reqsound-1.PNG", "tag" : "portfolio"},
         {"thumb" : "images/portfolio/thunderbolt_thumb.jpg", "image" : "images/portfolio/thunderbolt.jpg", "tag" : "portfolio"},
         {"thumb" : "images/portfolio/VisualVaultWebsite_thumb.jpg", "image" : "images/portfolio/VisualVaultWebsite.PNG", "tag" : "portfolio"}
+    ],
+    "social": [
+        {"id": "linkedin", "link": "https://www.linkedin.com/in/epdsn", "target" : "_blank", "cssClass" : "fa fa-linkedin-square" },
+        {"id": "github", "link": "https://github.com/epdsn", "target" : "_blank", "cssClass" : "fa fa-github" },
+        {"id": "codepen", "link": "http://codepen.io/epdsn/", "target" : "_blank", "cssClass" : "fa fa-codepen" },
+        {"id": "googleplus", "link": "https://plus.google.com/u/0/+EricPerezDesign", "target" : "_blank", "cssClass" : "fa fa-google-plus-official" }
     ]
 }

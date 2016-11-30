@@ -1,22 +1,30 @@
 
 mixin mainNav()
-    ul#main-menu.right
-        for menuItem in menuItems
-            li(id= menuItem.itemId)
-                a(href= menuItem.itemLink)= menuItem.itemAnchor
+    .top-bar-right
+        ul.menu
+            for menuItem in menuItems
+                li(id= menuItem.itemId)
+                    a(href= menuItem.itemLink, class= menuItem.cssClass)= menuItem.itemAnchor
 
 mixin portfolio()
-    .row
+    .row.small-up-1.medium-up-2.large-up-4.portfolio
         for peice in portfolio
-            .small-6.medium-4.large-expand.columns
+            .column.text-center
                 a(href= peice.image, data-lightbox= peice.tag)
-                    img(src= peice.thumb)
+                    img.thumbnail(src= peice.thumb)
+
+
+mixin socialLinks(cssClass)
+    ul(class= cssClass)
+        for icon in social
+            li.social-icon
+                a(href= icon.link, target= icon.target, class= icon.cssClass)
 
 
 mixin skillinfo(skillTitle, skillDesc, src)
     h2= skillTitle
     p= skillDesc
- 
+
     img.skill-icons(src=src)
 
 // ... expects and array
