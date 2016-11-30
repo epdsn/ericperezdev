@@ -220,6 +220,7 @@ section.specialization {
        padding: 80px 0; 
 }
 
+
 section.contact {
     background-color: $lightblue;
     h2 {
@@ -279,6 +280,22 @@ ul.skills li {
     margin: 20px auto;
     color: #fff;
     text-transform: uppercase;
+}
+
+#toTop {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1;
+    display: inline-block;
+    padding: 13px 15px;
+    border-radius: 3px;
+    background: $brightgreen;
+    border: none;
+
+
+    position: fixed;
+    right: 20px;
+    top: 300px;
 }
 
 footer {

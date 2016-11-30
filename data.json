@@ -5,16 +5,16 @@
         {"itemId": "hire", "itemLink": "#", "itemAnchor": "Contact", "cssClass" :"btnClickToContact"}
     ],
     "portfolio" : [
-        {"thumb" : "images/portfolio/GRMTOP_thumb.jpg", "image" : "images/portfolio/GRMTOP.JPG", "tag" : "portfolio"},
-        {"thumb" : "images/portfolio/ibestudios_thumb.jpg", "image" : "images/portfolio/ibestudios-1.PNG", "tag" : "portfolio"},
-        {"thumb" : "images/portfolio/JasonRay_PersonalFitness_thumb.jpg", "image" : "images/portfolio/JasonRay_PersonalFitness-1.jpg", "tag" : "portfolio"},
-        {"thumb" : "images/portfolio/MitekCanada_thumb.jpg", "image" : "images/portfolio/MitekCanada.PNG", "tag" : "portfolio"},
-        {"thumb" : "images/portfolio/MTXAudio_thumb.jpg", "image" : "images/portfolio/MTXAudio-1.PNG", "tag" : "portfolio"},
-        {"thumb" : "images/portfolio/mtxmarine_thumb.jpg", "image" : "images/portfolio/mtxmarine.PNG", "tag" : "portfolio"},
-        {"thumb" : "images/portfolio/psymbol_thumb.jpg", "image" : "images/portfolio/psymbol-500x300.jpg", "tag" : "portfolio"},
-        {"thumb" : "images/portfolio/reqsound_thumb.jpg", "image" : "images/portfolio/reqsound-1.PNG", "tag" : "portfolio"},
-        {"thumb" : "images/portfolio/thunderbolt_thumb.jpg", "image" : "images/portfolio/thunderbolt.jpg", "tag" : "portfolio"},
-        {"thumb" : "images/portfolio/VisualVaultWebsite_thumb.jpg", "image" : "images/portfolio/VisualVaultWebsite.PNG", "tag" : "portfolio"}
+        {"thumb" : "images/portfolio/GRMTOP_thumb.jpg", "image" : "images/portfolio/GRMTOP.JPG", "caption" : "GRM Website - HTML markup and design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/ibestudios_thumb.jpg", "image" : "images/portfolio/ibestudios-1.PNG", "caption" : "Ibe Studios  (School Project at ASU) - HTML markup and design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/JasonRay_PersonalFitness_thumb.jpg", "image" : "images/portfolio/JasonRay_PersonalFitness-1.jpg", "caption" : "JasonRay Personal Fitness - Logo Design in Adobe Illustrator", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/MitekCanada_thumb.jpg", "image" : "images/portfolio/MitekCanada.PNG", "caption" : "Mitek Canada - HTML markup and design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/MTXAudio_thumb.jpg", "image" : "images/portfolio/MTXAudio-1.PNG", "caption" : "MTX Audio - HTML markup and design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/mtxmarine_thumb.jpg", "image" : "images/portfolio/mtxmarine.PNG", "caption" : "MTX Marine HTML markup and design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/psymbol_thumb.jpg", "image" : "images/portfolio/psymbol-500x300.jpg", "caption" : "Personal Symbol (School Project at ASU) - Adobe Illustrator and Photoshop", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/reqsound_thumb.jpg", "image" : "images/portfolio/reqsound-1.PNG", "caption" : "Req Sound - HTML markup and design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/thunderbolt_thumb.jpg", "image" : "images/portfolio/thunderbolt.jpg", "caption" : "Thunderbolt Energy Drink  (School Project at ASU) - HTML markup and design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/VisualVaultWebsite_thumb.jpg", "image" : "images/portfolio/VisualVaultWebsite.PNG", "caption" : "VisualVault - HTML markup and design", "tag" : "portfolio"}
     ],
     "social": [
         {"id": "linkedin", "link": "https://www.linkedin.com/in/epdsn", "target" : "_blank", "cssClass" : "fa fa-linkedin-square" },

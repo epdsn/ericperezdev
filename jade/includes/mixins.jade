@@ -10,7 +10,7 @@ mixin portfolio()
     .row.small-up-1.medium-up-2.large-up-4.portfolio
         for peice in portfolio
             .column.text-center
-                a(href= peice.image, data-lightbox= peice.tag)
+                a(href= peice.image, data-lightbox= peice.tag data-title= peice.caption)
                     img.thumbnail(src= peice.thumb)
 
 
