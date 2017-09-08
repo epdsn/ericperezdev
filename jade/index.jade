@@ -14,8 +14,7 @@ html.no-js
         section.intro
             .row
                 .columns.medium-12
-                    p.intro-text <span class="italicSans">Hello</span>. My name is <strong>Eric Perez</strong>. <br /> I have been developing and desiging sites for 5+ years. I started my career in as a print production and marketing specialist and started to apply those skills to web development.
-        h1.herro
+                    p.intro-text <span class="italicSans">Hello</span>. My name is <strong>Eric Perez</strong>. <br /> I have been developing and desiging sites since 2005. I started my career in print and started to apply those skills to web development.
         section.specialization
             .row
                 .columns.medium-12
@@ -61,18 +60,12 @@ html.no-js
                     h2 Skills
                     .row 
                         .medium-6.columns
-                            +skillinfo(
-                                'Frontend',
-                                'I started out as a frontend guy about 10 years ago, fully equipped with Dreamweaver and ready to rock the early internets.',
-                                '  ')
-                            +frontendSkills    
+                            +skillinfo('Frontend', 'I started out as a frontend guys about 15 years ago, fully equipped with FrontPage 98 and ready to rock the early internets.', '  ')
+                            +skills('HTML5', 'CSS3', 'JADE', 'SASS', 'LESS', 'JAVASCRIPT', 'XML')
                         .medium-6.columns
                             +skillinfo(
-                                'Backend',
-                                'Out of necessity, I learned backend development while helping launch several ecommerce wesites starting in 2005.',
-                                ' ')
-                            +backendSkills
-
+                                'Backend', 'Out of necessity, I learned bbackend development while launching several internet-based buisnesses starting in 2002.', ' ')
+                            +skills('PHP', '.NET', 'NODEJS', 'C#', 'SQL', 'JAVASCRIPT', 'XML')
             .row
                 .columns.medium-12.text-center
                     a.button(href="EricPerezFrontendDeveloperResume.pdf") Download Resume
