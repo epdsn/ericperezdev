@@ -4,12 +4,21 @@ $(document).foundation()
 $(function(){
 
     var scrollDuration = 500;
+    var d = new Date();
+    var n = d.getFullYear();
+
+    $("#year").html(n);
 
     $(window).scroll(function() {
-        if ($(this).scrollTop()) {
-            $('#toTop:hidden').stop(true, true).fadeIn();
+        // if ($(this).scrollTop()) {
+        //     $('#toTop:hidden').stop(true, true).fadeIn();
+        // } else {
+        //     $('#toTop').stop(true, true).fadeOut();
+        // }
+        if ($(document).scrollTop() > 100) {
+            $("#top-nav").addClass("scrolled");
         } else {
-            $('#toTop').stop(true, true).fadeOut();
+            $("#top-nav").removeClass("scrolled");
         }
     });
 
@@ -45,5 +54,10 @@ $(function(){
             durationMode: 'all'
         });
     });
+
+
+
+
+
 
 });
