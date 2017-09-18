@@ -36,7 +36,6 @@ a, p, ul li, h1, h2, h3, h4, h5, h6 {
 
 .intro {
     color: #000;
-    text-align: center;
     font-weight: 300;
     font-size: 2.8em;
     margin-top: 60px;
@@ -148,6 +147,16 @@ nav.top-bar {
 .sub-color {
     color: $sidebar-font-color;
     margin-top: 0;
+}
+
+.title-intro {
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 50px;
+    margin-left: -12px;
+    text-shadow: 0px 25px 25px rgba(0, 0, 0, 0.1);
 }
 
 ul {
