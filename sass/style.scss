@@ -5,7 +5,7 @@ $logoteal: #56C4B7;
 $brightgreen: #55DBA5;
 $green:#51D179;
 $drakblue:   #386a8f;
-
+$dark-grey: #333333;
 
 $name-color:$drakblue;
 $sidebar-font-color: #ababab;
@@ -27,7 +27,7 @@ body, html {
     height: 100%;
 }
 
-a, p, ul li, h1, h2 {
+a, p, ul li, h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     font-family: $montserrat;
     font-weight: 100;
@@ -52,10 +52,9 @@ a, p, ul li, h1, h2 {
 }
 
 h2 {
-    text-align: center;
-    font-size: 1.5rem;
-    color: #000;
-    border-bottom: solid 1px #000;
+    font-size: 2rem;
+    color: $dark-grey;
+    border-bottom: solid 1px $dark-grey;
     text-transform: uppercase;
 }
 
@@ -73,7 +72,7 @@ h2 {
 }
 .top-bar.scrolled {
     $speed: 700ms;
-    background-color: #333333;
+    background-color: $dark-grey;
     color: #fff;
     -webkit-transition: background-color $speed linear;
     -moz-transition: background-color $speed linear;
@@ -139,7 +138,7 @@ nav.top-bar {
 }
 
 #name {
-    color: $name-color;
+    color: $dark-grey;
     text-align: left;
     line-height: 17px;
     margin-left: 7px;
@@ -235,6 +234,9 @@ section.about,
 section.work
 {
         padding: 3rem;
+        h2 {
+            padding-top:20px;
+        }
 }
 
 section.intro {
@@ -253,22 +255,22 @@ section.intro {
 section.about {
     background-color: $logo-color;
     h2 {
-        color: #fff;
-        border-bottom: solid 1px #fff;
+        //color: #fff;
+        //border-bottom: solid 1px #fff;
     }
     h3 {
         margin-top: 75px;
-        color: #fff;
+        //color: #fff;
     }
 }
 
 
 section.specialization {
     background-color: $lightblue;
-
+    // color: #fff;
     h2 {
-        //color: #fff;
-        border-bottom: solid 1px #fff;
+        // color: #fff;
+        // border-bottom: solid 1px #fff;
     }
     h3 {
         margin-top: 75px;
@@ -292,8 +294,10 @@ section.specialization {
 
 section.contact {
 
+    color: #fff;
+
     h2 {
-        border-bottom: solid 1px #fff;
+        //border-bottom: solid 1px #fff;
     }
     h3 {
         margin: 70px 0;
