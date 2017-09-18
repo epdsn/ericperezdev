@@ -24,9 +24,9 @@ mixin socialLinks(cssClass)
 mixin skillinfo(skillTitle, skillDesc, src)
     h2= skillTitle
     p= skillDesc
-
-    img.skill-icons(src=src)
-
+    if src != ''
+        img.skill-icons(src=src)
+    
 // ... expects and array
 mixin skills(...items)
     ul(class='skills')

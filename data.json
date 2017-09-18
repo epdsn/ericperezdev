@@ -1,7 +1,7 @@
 {
     "menuItems" : [
         {"itemId": "about", "itemLink": "#", "itemAnchor": "About", "cssClass" :"btnClickToAbout"},
-        {"itemId": "experience", "itemLink": "#", "itemAnchor": "Work", "cssClass" :"btnClickToWork"},
+        {"itemId": "experience", "itemLink": "#", "itemAnchor": "Projects", "cssClass" :"btnClickToWork"},
         {"itemId": "hire", "itemLink": "#", "itemAnchor": "Contact", "cssClass" :"btnClickToContact"}
     ],
     "portfolio" : [
