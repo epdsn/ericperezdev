@@ -35,7 +35,9 @@ a, p, ul li, h1, h2, h3, h4, h5, h6 {
 
 
 .intro {
-    color: #000;
+    background: url(../images/web-design-wireframe-sketch-negative-space.jpg) no-repeat center left;
+    background-size: 100%;
+    color: #fff;
     font-weight: 300;
     font-size: 2.8em;
     margin-top: 60px;
@@ -46,6 +48,9 @@ a, p, ul li, h1, h2, h3, h4, h5, h6 {
         .italicSans {
             font-family: $open-sans;
         }
+    }
+    span {
+        background-color:rgba(0, 0, 255, .65);
     }
 
 }
@@ -250,7 +255,7 @@ section.work
 }
 
 section.intro {
-    background-color: $lightblue;
+    background-color: #000;
     h2 {
         color: #fff;
         border-bottom: solid 1px #fff;

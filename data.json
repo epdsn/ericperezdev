@@ -5,6 +5,21 @@
         {"itemId": "hire", "itemLink": "#", "itemAnchor": "Contact", "cssClass" :"btnClickToContact"}
     ],
     "portfolio" : [
+        
+        {"thumb" : "images/portfolio/GRM-website-healthcare_thumb.png", "image" : "images/portfolio/GRM-website-healthcare.PNG", "caption" : "GRM Healthcare Website - UX and UI design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/GRM-website-healthcare-locations_thumb.png", "image" : "images/portfolio/GRM-website-healthcare-locations.PNG", "caption" : "GRM Locations Website - UX and UI design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/New-Tab-layout_thumb.png", "image" : "images/portfolio/New-Tab-layout.jpg", "caption" : "GRM Website - HTML markup and design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/staples-app_thumb.png", "image" : "images/portfolio/staples-app.png", "caption" : "Staples Records & Clound Management Web App - UX and UI design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/visualvault-app_thumb.png", "image" : "images/portfolio/visualvault-app.JPG", "caption" : "VisualVault Web App Login Page - UX and UI design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/VisualVault-healthcare_thumb.png", "image" : "images/portfolio/VisualVault-healthcare.PNG", "caption" : "VisualVault Website Healthcare Page - UX and UI design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/visualvault-webapp_thumb.png", "image" : "images/portfolio/visualvault-webapp.JPG", "caption" : "VisualVault Web App - UX and UI design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/vv_admin_thumb.png", "image" : "images/portfolio/vv_admin.JPG", "caption" : "VisualVault Web App Admin Area - UX and UI design", "tag" : "portfolio"},
+        {"thumb" : "images/portfolio/VV-custome-icons_thumb.png", "image" : "images/portfolio/VV-custome-icons.JPG", "caption" : "Form Designer icon set - design", "tag" : "portfolio"},
+
+        
+        
+        
+        
         {"thumb" : "images/portfolio/GRMTOP_thumb.jpg", "image" : "images/portfolio/GRMTOP.JPG", "caption" : "GRM Website - HTML markup and design", "tag" : "portfolio"},
         {"thumb" : "images/portfolio/ibestudios_thumb.jpg", "image" : "images/portfolio/ibestudios-1.PNG", "caption" : "Ibe Studios  (School Project at ASU) - HTML markup and design", "tag" : "portfolio"},
         {"thumb" : "images/portfolio/JasonRay_PersonalFitness_thumb.jpg", "image" : "images/portfolio/JasonRay_PersonalFitness-1.jpg", "caption" : "JasonRay Personal Fitness - Logo Design in Adobe Illustrator", "tag" : "portfolio"},
